@@ -1,7 +1,6 @@
 //Create browser
 
 //Create camera
-
 let camera = mp.cameras.new("camera", new mp.Vector3(877.3869018554688, 917.0142211914062,  369.2461242675781), new mp.Vector3(-10, 0, 15), 55);
 camera.pointAtCoord(496.5565185546875, 1254.3896484375, 293.2616882324219); //
 camera.setActive(true);
