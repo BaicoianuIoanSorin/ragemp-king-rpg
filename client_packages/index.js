@@ -2,7 +2,9 @@ var gps_blip = null;
 var gps_checkpoint = null; 
 var frozenPlayer = false;  
 var blip_orange = null; 
-         
+      
+global.gm = {}
+
 require('./noclip');  
  
 //Login & Register

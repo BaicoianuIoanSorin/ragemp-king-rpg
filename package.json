@@ -3,6 +3,7 @@
     "bcrypt-nodejs": "^0.0.3",
     "mysql": "^2.18.1",
     "node-fetch": "^2.6.1",
+    "rage-rpc": "^0.4.0",
     "randomcolor": "^0.6.2"
   },
   "devDependencies": {
