@@ -136,14 +136,14 @@ mp.events.add("loginConnectPlayer", (player, acctionType, loginName, loginPass, 
     }
 });
 
-mp.events.addProc('playerIsRegisteredAlready', userName => {
-    console.log("wroks");
-    gm.mysql.handle.query('SELECT * FROM `accounts` WHERE `username` = Ionut LIMIT 1', [userName], function(err, res) {
-        var isAlreadyRegistered = res.length > 0;
-        console.log(isAlreadyRegistered);
-        return isAlreadyRegistered;
-    });
-})
+// mp.events.addProc('playerIsRegisteredAlready', userName => {
+//     console.log("wroks");
+//     gm.mysql.handle.query('SELECT * FROM `accounts` WHERE `username` = Ionut LIMIT 1', [userName], function(err, res) {
+//         var isAlreadyRegistered = res.length > 0;
+//         console.log(isAlreadyRegistered);
+//         return isAlreadyRegistered;
+//     });
+// })
 
 mp.events.add("playerQuit", playerQuitHandler);
 function playerQuitHandler(player, exitType, reason)
