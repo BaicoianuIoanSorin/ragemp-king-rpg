@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="images">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/client_packages/CEF/clothing_store/images/GangWars.zip!/" />
+      <root url="jar://$PROJECT_DIR$/client_packages/CEF/clothing_store/images/ClothingShops.zip!/" />
+      <root url="jar://$PROJECT_DIR$/client_packages/CEF/clothing_store/images/WiredPlayers-RP.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
