@@ -97,6 +97,9 @@ require("CEF/phone/index.js");
 //Drugs dealer job
 require("CEF/jobs/drugsDealer/drugsDealer.js"); 
 
+//Location player 
+require("CEF/player_location/player_location.js");
+
 //Camera fly
 require("./fly");
   
