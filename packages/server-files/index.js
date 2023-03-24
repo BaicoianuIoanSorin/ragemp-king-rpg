@@ -175,7 +175,6 @@ setInterval ( () => {
     mp.players.forEach(player => {
         if(player.loggedInAs === true)
         {
-            console.log(player.name);
             if(player.data.mute !== 0)
             {
                 player.data.mute -= 1000;
