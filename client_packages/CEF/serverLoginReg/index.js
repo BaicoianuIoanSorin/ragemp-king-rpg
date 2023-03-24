@@ -2,8 +2,8 @@
 var loginBrowser = mp.browsers.new("package://CEF/serverLoginReg/index.html"); 
 
 //Create camera
-let camera = mp.cameras.new("camera", new mp.Vector3(-957.93798828125, -2493.306884765625, 44.44485092163086), new mp.Vector3(-10, 0, 15), 55);
-camera.pointAtCoord(-956.0208740234375, -2490.068603515625, 42.049659729003906); //
+let camera = mp.cameras.new("camera", new mp.Vector3(877.3869018554688, 917.0142211914062,  369.2461242675781), new mp.Vector3(-10, 0, 15), 55);
+camera.pointAtCoord(496.5565185546875, 1254.3896484375, 293.2616882324219);
 camera.setActive(true);
 mp.game.cam.renderScriptCams(true, false, 0, true, false); 
  
